@@ -38,9 +38,10 @@ body{
     color: white;
     cursor: pointer;
 }
-.color{
+.color:hover{
     color: #1abc9c;
 }
+
 /* Hero section */
 .Hero_img{
     display: flex;
@@ -100,6 +101,7 @@ body{
     font-size: 20px;
     color:white;
     width: 25%;
+    min-width: 300px;
 }
 .about-btn{
     display: block;
@@ -123,15 +125,26 @@ body{
     width: 50%;
     height: 30px;
     margin: 10px 0 10px;
+    border: 0cm;
 }
 .contact-msg{
     width: 50%;
     height: 60px;
     margin: 10px 0 10px;
+    border: 0cm;
 }
 .btn-green{
     background-color: green;
     opacity: 0.5;
+}
+.erorr{
+    border-color: red;
+}
+.fail{
+    display: none;
+    font-size: 16px;
+    color: red;
+    text-align: center;
 }
 
 .final{
@@ -143,4 +156,5 @@ body{
 }
 .final-info{
     width: 20%;
+    min-width: 300px;
 }
