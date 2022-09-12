@@ -1,0 +1,29 @@
+/* css file for bootstrap site */
+body{
+    margin: 0px;
+}
+/* navbar section */
+.navbar{
+    background-color: rgb(0, 0, 85);
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    
+}
+.list > p{
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+}
