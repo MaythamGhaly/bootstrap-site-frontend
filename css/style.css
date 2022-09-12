@@ -146,7 +146,7 @@ body{
     color: red;
     text-align: center;
 }
-
+/* final section */
 .final{
     flex-wrap: wrap;
     display: flex;
