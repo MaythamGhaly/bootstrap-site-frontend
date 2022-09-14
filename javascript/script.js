@@ -48,6 +48,7 @@ window.onload = () => {
             fail.style.display="block"
             fail.innerText="Message should be a minimum of 100 characters."
         }
+        // fetch and send the data to db
         else {
             fail.style.color="green"
             fail.style.display="block"
@@ -59,7 +60,6 @@ window.onload = () => {
                 "message":msg.value,
             })})
                 .then(Response=>Response.json())
-                .then(data=> console.log(data.name))
         }
     }
 
