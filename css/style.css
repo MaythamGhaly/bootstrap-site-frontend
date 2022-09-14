@@ -158,3 +158,18 @@ body{
     width: 20%;
     min-width: 300px;
 }
+
+/* css for the messages page */
+.navbar-msg{
+    background-color: rgba(8, 8, 46, 0.767);
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.navbar-msg >p {
+    margin: 0px 0 0px;
+}
+body{
+    background-color: #1abc9c;
+
+}

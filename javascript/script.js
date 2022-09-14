@@ -44,7 +44,6 @@ window.onload = () => {
         // }
         // check for the massege 
         else if (msg.value.length<100){
-            console.log("yes")
             msg.style.backgroundColor="red"
             fail.style.display="block"
             fail.innerText="Message should be a minimum of 100 characters."
@@ -53,14 +52,14 @@ window.onload = () => {
             fail.style.color="green"
             fail.style.display="block"
             fail.innerText="Message sent!."
-            fetch("link", {method:'post',body: new URLSearchParams({
-                name:name.value,
-                email:email.value,
-                phone:phone.value,
-                message:message.value,
+            fetch("http://localhost/messages/addmessage.php", {method:'post',body: new URLSearchParams({
+                "name":name.value,
+                "email":email.value,
+                "phone":phone.value,
+                "message":msg.value,
             })})
                 .then(Response=>Response.json())
-                .then(data=>)
+                .then(data=> console.log(data.name))
         }
     }
 
