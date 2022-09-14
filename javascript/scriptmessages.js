@@ -1,4 +1,8 @@
 window.onload = () => {
+    // const btn=document.getElementById("msg-btn")
+    // btn.addEventListener("click",show)
+
+    // function show(){
 
     fetch(`http://localhost/messages/showmessages.php`)
     .then(res=>res.json())
@@ -11,5 +15,5 @@ window.onload = () => {
         document.body.appendChild(div)
       }
       })
-
+    // }
 }

@@ -169,11 +169,7 @@ body{
 .navbar-msg >p {
     margin: 0px 0 0px;
 }
-body{
-    background-color: #1abc9c;
-
-}
 .msg-style{
     text-align: center;
-    border: #000000;
+    border: 2px #000000;
 }
